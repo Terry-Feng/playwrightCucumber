@@ -1,0 +1,98 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "calculator;add-two-numbers",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add two numbers",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 752955100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the first number is \"50\"",
+            "match": {
+              "location": "src\\steps\\Calculator.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 664793600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the second number is \"70\"",
+            "match": {
+              "location": "src\\steps\\Calculator.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 203436300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the two numbers are added",
+            "match": {
+              "location": "src\\steps\\Calculator.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 448158899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the result should be \"120\"",
+            "match": {
+              "location": "src\\steps\\Calculator.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 388957800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 39282299
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "calculator",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Calculator",
+    "tags": [],
+    "uri": "features\\Calculator.feature"
+  }
+]

@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Cucumber",
+        "type": "node",
+        "request": "launch",
+        "program": "${workspaceFolder}/node_modules/@cucumber/cucumber/bin/cucumber-js",
+        "args": [
+            "${workspaceRoot}/features/*.feature",
+            "--tags", "@debug"
+        ],
+        "stopOnEntry": false,
+        "runtimeArgs": ["--nolazy"],
+        "sourceMaps": true,
+        "cwd": "${workspaceFolder}",
+        "protocol": "inspector",
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
+      }
+    ]
+  }
+  

@@ -1,0 +1,64 @@
+{
+  "name": "cucumber-playwright",
+  "version": "1.2.0",
+  "description": "Starter project to write and debug cucumber-js features with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "e2e:tag": "cucumber-js --require cucumber.conf.js --require steps/*.js --format @cucumber/pretty-formatter --tags @mytag",
+    "e2e:parallel": "cucumber-js --require cucumber.conf.js --require steps/*.js --retry 2 --format @cucumber/pretty-formatter --parallel 5",
+    "e2e:test": "cucumber-js --require cucumber.conf.js --require steps/*.js  --format @cucumber/pretty-formatter"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tallyb/cucumber7-playwright.git"
+  },
+  "author": "Tally Barak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tallyb/cucumber-playwright/issues"
+  },
+  "homepage": "https://github.com/tallyb/cucumber-playwright#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "8.10.0",
+    "@cucumber/html-formatter": "20.2.1",
+    "@cucumber/messages": "^21.0.0",
+    "@cucumber/pretty-formatter": "1.0.0",
+    "@playwright/test": "1.40",
+    "@types/fs-extra": "9.0.13",
+    "axios": "^1.5.0",
+    "cucumber-console-formatter": "1.0.0",
+    "moment": "^2.29.4",
+    "pixelmatch": "5.3.0",
+    "pngjs": "6.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/expect": "24.3.0",
+    "@types/fs-extra": "9.0.13",
+    "@types/lodash": "4.14.191",
+    "@types/node": "18.11.18",
+    "@types/pg": "^8.10.2",
+    "@types/pixelmatch": "5.2.4",
+    "@types/pngjs": "6.0.1",
+    "@typescript-eslint/eslint-plugin": "5.47.1",
+    "@typescript-eslint/parser": "5.47.1",
+    "allure-cucumberjs": "2.0.0-beta.23",
+    "concurrently": "^8.2.1",
+    "eslint": "8.31.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "fs-extra": "11.1.0",
+    "moment-timezone": "^0.5.43",
+    "open": "8.4.0",
+    "pg": "^8.11.3",
+    "prettier": "2.8.1",
+    "rimraf": "3.0.2",
+    "standard-version": "9.5.0",
+    "ts-node": "10.9.1",
+    "typescript": "4.9.4"
+  }
+}
