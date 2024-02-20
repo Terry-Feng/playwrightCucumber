@@ -8,9 +8,9 @@ This repo is for writing E2E tests based on Cucumber(7) with Playwright using Ty
 
 [Read](https://tally-b.medium.com/e2e-testing-with-cucumber-and-playwright-9584d3ef3360) or [watch](https://www.youtube.com/watch?v=PUVFmhYJNJA&list=PLwwCtx3xQxlVMZzS4oi2TafVRngQ1wF_0&index=2).
 
-## Install
-- Install node.js. Version 20.11.1 is the recommended version (https://nodejs.org/en) 
-- Run `npm install` to install all dependency.
+## Installation
+- Install node.js. Version 20.11.1 is the recommended version now (https://nodejs.org/en) 
+- Run `npm install` to install all dependencies.
 
 ## To run your tests
 
