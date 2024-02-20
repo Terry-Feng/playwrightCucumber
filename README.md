@@ -8,16 +8,15 @@ This repo is for writing E2E tests based on Cucumber(7) with Playwright using Ty
 
 [Read](https://tally-b.medium.com/e2e-testing-with-cucumber-and-playwright-9584d3ef3360) or [watch](https://www.youtube.com/watch?v=PUVFmhYJNJA&list=PLwwCtx3xQxlVMZzS4oi2TafVRngQ1wF_0&index=2).
 
+## Install
+- Install node.js. Version 20.11.1 is the recommended version (https://nodejs.org/en) 
+- Run `npm install` to install all dependency.
+
 ## To run your tests
 
 - `npm run e2e:tag @tag` to run the casual test with tag
 - `npm run e2e:test:parallel` to run the parallel test to help you to prepare the test data
-- `npm run e2e:cicd` to run the cicd test
-- `npm run e2e:sanity` to run the sanity test
-
-```
-dynamicEnvironment=https://stellare-auto-manual-payment-process.preview.harmoneylabs.com/ environment=QA npm run e2e:tag @idv
-```
+- `npm run e2e:test` to run all test
 
 ## Branch and environment selection
 
